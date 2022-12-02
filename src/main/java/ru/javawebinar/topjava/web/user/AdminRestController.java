@@ -5,6 +5,8 @@ import ru.javawebinar.topjava.model.User;
 
 import java.util.List;
 
+import static ru.javawebinar.topjava.util.ValidationUtil.checkNotFoundWithId;
+
 @Controller
 public class AdminRestController extends AbstractUserController {
 
